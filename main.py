@@ -53,6 +53,9 @@ class Player:
 
 
 if __name__ == "__main__":
+    # TODO: ASK FOR INPUT for PLATFORM, REGION, NAME
+    # IF NAME IS ENTERED WITH '#' INSTEAD OF '-', SWITCH IT TO THAT
+
     player = Player("pc", "us", "nebula-11571")
     print('Name: ', player.get_name())
     print('Level: ', player.get_total_level())
